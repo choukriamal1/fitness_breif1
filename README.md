@@ -36,16 +36,18 @@ Le projet est conduit selon les principes méthodologiques **Agile/Scrum** :
 
 ## Spécifications Techniques (HTML5 & CSS3)
 
-### Structure HTML5 Sémantique
+### Structure HTML5 Sémantique ?
 - Balises structurelles : `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`.
 - Formulaires accessibles : `<form>`, `<label>`, `<input>`, `<textarea>`, `<button>`.
 
-### Design & Responsive (CSS3)
+### Design & Responsive (CSS3) ?
 - **Mise en page** : CSS Grid.
 - **Responsive** : Media Queries (`@media`) pour garantir la lisibilité et l'absence de débordement horizontal.
 - **Interactions** : Gestion soignée des états `:hover` et `:focus-visible` pour l'accessibilité.
+
 ---
-### L'ordre réaliser 
+
+### L'ordre réaliser ?
 - Analyser le brief et identifier les besoins.
 - Définir le parcours utilisateur et l'organisation du contenu.
 - Réaliser le zoning.
@@ -54,8 +56,29 @@ Le projet est conduit selon les principes méthodologiques **Agile/Scrum** :
 - Relier les écrans dans un prototype si nécessaire.
 - Recueillir les retours et valider les choix.
 - Commencer le développement HTML/CSS.
+  
+---
+### Qu’est-ce que le SEO ?
+Le SEO améliore le classement Google grâce aux mots-clés, au SEO on-page (titres, alt, hrefs), off-page (backlinks), à l’infrastructure, à l’UX/UI, au CTR et à Google Search Console. Le pilier technique, contenu et popularité structure cette optimisation.
 
 ---
-###: Qu’est-ce que le SEO ?
+### Quelles sont les positions en CSS et leurs rôles ?
+- **Static** : position par défaut.
+- **Relative** : déplace l’élément par rapport à sa position initiale.
+- **Absolute** : positionne l’élément par rapport au parent positionné.
+- **Fixed** : fixe l’élément sur l’écran, même pendant le scroll.
+- **Sticky** : fixe l’élément lorsqu’il atteint un seuil de défilement.
 
-R : Le SEO améliore le classement Google grâce aux mots-clés, au SEO on-page (titres, alt, hrefs), off-page (backlinks), à l’infrastructure, à l’UX/UI, au CTR et à Google Search Console. Le pilier technique, contenu et popularité structure cette optimisation.
+---
+### Qu’est-ce que CSS Grid et quelles sont ses propriétés principales ?
+CSS Grid permet de créer une mise en page en lignes et en colonnes.
+
+- **Display** : grid; : active Grid.
+- **Grid-template-columns** : repeat(3, 1fr); : crée 3 colonnes égales.
+- **Grid-template-rows** : repeat(2, 100px); : crée 2 lignes de 100 px.
+- **Gap** : 10px; : ajoute un espace entre les éléments.
+- **Justify-items** : center; : centre les éléments horizontalement dans leurs cellules.
+- **Align-items** : center; : centre les éléments verticalement dans leurs cellules.
+- **Place-items** : center; : centre les éléments horizontalement et verticalement.
+- **Grid-column** : span 2; : fait occuper 2 colonnes à un élément.
+- **Grid-row** : span 2; : fait occuper 2 lignes à un élément.
