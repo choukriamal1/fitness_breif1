@@ -145,12 +145,12 @@
 .contact-info a {
   color: #fff;
   text-underline-offset: 3px;
-  text-decoration: underline;
 }
 
 .contact-info a:hover,
 .contact-info a:focus-visible {
-  color: #FF6B2C;
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 .contact-icon {
